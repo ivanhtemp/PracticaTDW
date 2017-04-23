@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+    font-family: "Lucida Sans Typewriter";
+    text-transform: uppercase;
+    color: white;
+}
+
+#cabecera {
+    width: 100%;
+    background-color: #667292;
+    border-radius: 5px;
+}
+
+#menu {
+    width: 100%;
+    font-size: 1.3em;
+    font-family: "Courier New";
+    margin: 0 auto;
+    text-align: center;
+    padding: 3px;
+}
+
+#menu td {
+    padding-left: 5em;
+    padding-right: 5em;;
+}
+
+#menu td:hover {
+    font-style: italic;
+    font-weight: bold;
+}
+
+body {
+    background-color: #ccffb3;
+}
+
+#config {
+    margin-top: 10em;
+    font-family: "Courier New";
+    font-size: 1em;
+    background-color: #ff80ff;
+    border-radius: 5px;
+    width: 28%;
+}
+
+#tablero {
+    height: 800px;
+    width: 650px;
+    margin: 0 auto;
+    margin-top: -19em;
+}
+
+#info {
+    float: right;
+}
+
+.ficha {
+    width: 90px;
+    height: 90px;
+}
+
+.hueco_oculto {
+    visibility: hidden;
+}
+
+.hueco {
+
+}

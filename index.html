@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Solitario Celta - Iván Hernández</title>
+    <script type="application/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="dibujaTablero()">
+    <header>
+        <div id="cabecera">
+        <h1>
+            Solitario Celta
+        </h1>
+            <nav>
+                <table id="menu">
+                    <tr>
+                        <td onclick="jugar()">Jugar</td>
+                        <td onclick="situar()">Situar fichas</td>
+                        <td>Guardar estado</td>
+                        <td>Registrar</td>
+                        <td>Usuario</td>
+                    </tr>
+                </table>
+            </nav>
+        </div>
+    </header>
+
+    <div id="config">
+        <table>
+            <caption>Opciones de juego</caption>
+                <tr>
+                    <td>Hueco central</td>
+                    <td><input type="radio" id="centro" name="central" value="central" checked /></td>
+                </tr>
+                <tr>
+                    <td>Hueco aleatorio</td>
+                    <td><input type="radio" id="aleatorio" name="central" value="aleatorio" /></td>
+                </tr>
+                <tr>
+                    <td>Límite de tiempo:</td>
+                    <td><input type=text" id="tiempo" name="tiempo" placeholder="Minutos"/></td>
+                </tr>
+                <tr>
+                    <td>Segundos restantes:</td>
+                    <td id=segundos>00</td>
+                </tr>
+                <tr>
+                    <td>Introduce tu usuario:</td>
+                    <td><input type="text" name="usuario" /></td>
+                </tr>
+            <tr>
+                <td>Puntuación:</td>
+                <td id="puntos">0</td>
+            </tr>
+
+        </table>
+    </div>
+    <div id="tablero">
+
+    </div>
+</body>
+</html>
